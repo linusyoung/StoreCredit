@@ -79,6 +79,11 @@ func solveSmall(data caseSuite, cases int){
 	} 
 }
 
+/*
+	solveLarge
+	by filtering impossible value before actually find solution.
+*/
+
 func solveLarge(data caseSuite, cases int){
 	filterPrice := make([]int,data.items)
 	priceCount := 0
