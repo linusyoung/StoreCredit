@@ -69,9 +69,9 @@ func solveSmall(data caseSuite, cases int){
 		for j:=1; j < data.items-1; j++{
 			if data.credit == data.price[i] + data.price[j] {
 				if data.price[i] < data.price[j]{
-					fmt.Println("Case #", cases+1, ":", data.price[i], data.price[j])
+					fmt.Println("Case#", cases+1, ":", data.price[i], data.price[j])
 				} else{
-					fmt.Println("Case #", cases+1, ":", data.price[j], data.price[i])
+					fmt.Println("Case#", cases+1, ":", data.price[j], data.price[i])
 				}
 				return
 			}	
